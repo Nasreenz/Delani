@@ -4,6 +4,7 @@
   background-size: cover;
   background-attachment: fixed;
   font-weight: normal!important;
+  color: white;
 }
 
 .jumbotron{
@@ -12,4 +13,16 @@
   background-size: cover;
   background-attachment: fixed;
   font-weight: normal!important;
+}
+p{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.footer{
+  text-align: center;
+}
+foot{
+  text-align: center;
 }
