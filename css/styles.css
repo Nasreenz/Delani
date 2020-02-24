@@ -22,18 +22,22 @@
   background-size: cover;
   font-weight: normal!important;
 }
+form{
+  text-align: center;
+}
 p{
   text-align: center;
 }
 h2{
   text-align: center;
+  color: white;
 }
 
 .footer{
   text-align: center;
 }
-.well{
-  text-align: center;
+.foot{
+  text-align: center!important;
 }
 .george{
   background-color: transparent;
@@ -45,4 +49,7 @@ h2{
   text-align: center!important;
   background-color: transparent!important;
   opacity: 0.6;
+}
+.button{
+    text-align: center;
 }
