@@ -20,40 +20,32 @@ $(document).ready(function(){
 // }).mouseout
 $(document).ready(function(){
   $("#work4").mouseenter(function(){
-    $("#work4").fadeout()
-    $("#naz1").fadein();
+    $("#work4").show();
   }).mouseleave(function(){
-    $("#naz1").fadeout();
-    $("#work4").fadein ();
+    $("#naz1").hide ();
   });
 });
 
 $(document).ready(function(){
   $("#work3").mouseenter(function(){
-    $("#work3").fadeout()
-    $("#naz2").fadein();
+    $("#work3").show();
   }).mouseleave(function(){
-    $("#naz2").fadeout();
-    $("#work3").fadein ();
+    $("#naz2").hide ();
   });
 });
 
 $(document).ready(function(){
   $("#work2").mouseenter(function(){
-    $("#work2").fadeout()
-    $("#naz3").fadein();
+    $("#work2").show();
   }).mouseleave(function(){
-    $("#naz3").fadeout();
-    $("#work2").fadein ();
+    $("#naz3").hide();
   });
 });
 
 $(document).ready(function(){
   $("#work1").mouseenter(function(){
-    $("#work1").fadeout()
-    $("#naz4").fadein();
+    $("#work1").show();
   }).mouseleave(function(){
-    $("#naz4").fadeout();
-    $("#work1").fadein ();
+    $("#naz4").hide();
   });
 });
