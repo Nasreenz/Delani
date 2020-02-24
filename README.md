@@ -1,6 +1,6 @@
 # Delani.
 ## Description
-This  is a website that covers content of all the work covered this week.I have a studio Delani website that has hovering images and a form that is filled out and gives back an alert.
+This  is a website that covers content of all the work covered this week.I have a studio Delani website that has hovering images and a form that is filled out and gives back an alert, it also ussed toggle functions.
 ## Author
 -Nasra Ibrahim Gedi
 
