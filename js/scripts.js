@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("form#form-delani").submit(function(event){
-    event.preventDefault();
+    // event.preventDefault();
     var name = $("input#numro").val();
     var email = $("input#numro1").val();
     var message = $("textarea#message").val();
