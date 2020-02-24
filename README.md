@@ -1,7 +1,6 @@
 # Delani.
-This  is a website that covers content of all the work covered this week.I have a studio Delani website that has hovering images and a form that is filled out and gives back an alert.
 ## Description
-This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
+This  is a website that covers content of all the work covered this week.I have a studio Delani website that has hovering images and a form that is filled out and gives back an alert.
 ## Author
 -Nasra Ibrahim Gedi
 
