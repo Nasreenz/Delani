@@ -49,3 +49,35 @@ $(document).ready(function(){
     $("#naz4").hide();
   });
 });
+
+$(document).ready(function(){
+  $("#work5").mouseenter(function(){
+    $("#work5").show();
+  }).mouseleave(function(){
+    $("#naz5").hide ();
+  });
+});
+
+$(document).ready(function(){
+  $("#work6").mouseenter(function(){
+    $("#work6").show();
+  }).mouseleave(function(){
+    $("#naz6").hide ();
+  });
+});
+
+$(document).ready(function(){
+  $("#work7").mouseenter(function(){
+    $("#work7").show();
+  }).mouseleave(function(){
+    $("#naz7").hide();
+  });
+});
+
+$(document).ready(function(){
+  $("#work8").mouseenter(function(){
+    $("#work8").show();
+  }).mouseleave(function(){
+    $("#naz8").hide();
+  });
+});
