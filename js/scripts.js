@@ -14,7 +14,46 @@ $(document).ready(function(){
   });
 
 });
+//
+// $("#work4").mouseover(function (){
+//   $("$naseeb").show();
+// }).mouseout
+$(document).ready(function(){
+  $("#work4").mouseenter(function(){
+    $("#work4").fadeout()
+    $("#naz1").fadein();
+  }).mouseleave(function(){
+    $("#naz1").fadeout();
+    $("#work4").fadein ();
+  });
+});
 
-$("#work4").mouseover(function (){
-  $("$naseeb").show();
-}).mouseout
+$(document).ready(function(){
+  $("#work3").mouseenter(function(){
+    $("#work3").fadeout()
+    $("#naz2").fadein();
+  }).mouseleave(function(){
+    $("#naz2").fadeout();
+    $("#work3").fadein ();
+  });
+});
+
+$(document).ready(function(){
+  $("#work2").mouseenter(function(){
+    $("#work2").fadeout()
+    $("#naz3").fadein();
+  }).mouseleave(function(){
+    $("#naz3").fadeout();
+    $("#work2").fadein ();
+  });
+});
+
+$(document).ready(function(){
+  $("#work1").mouseenter(function(){
+    $("#work1").fadeout()
+    $("#naz4").fadein();
+  }).mouseleave(function(){
+    $("#naz4").fadeout();
+    $("#work1").fadein ();
+  });
+});
