@@ -14,3 +14,7 @@ $(document).ready(function(){
   });
 
 });
+
+$("#work4").mouseover(function (){
+  $("$naseeb").show();
+}).mouseout
