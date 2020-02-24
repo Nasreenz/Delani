@@ -16,6 +16,10 @@
   padding: 200px;
   text-align: center;
 }
+h2{
+  text-align: center;
+  color: white;
+}
 .nasra{
   background-color: transparent;
   background-image: url("../images/c_image.jpg");
@@ -29,13 +33,7 @@
 form{
   text-align: center;
 }
-p{
-  text-align: center;
-}
-h2{
-  text-align: center;
-  color: white;
-}
+
 
 footer{
   text-align: center;
