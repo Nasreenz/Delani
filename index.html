@@ -36,86 +36,81 @@
 
 
     <h1>WHAT TO DO</h1>
-      <div class="jill">
+      <!-- <div class="jill"> -->
       <div class="row">
 
         <div class="col-md-4">
+          <div id="imgdiza">
+              <img src= "images/design_icon.png" alt="design">
+                <p>Design</p>
+          </div>
           <div id="diza">
             <p>Our design practice offers a full range of services including branding strategy,
                 <br>interaction and visual design and user experience testing. Throughout </br>your
                 project, our designers create and implement visual designs and workflows solicit user feedback,
                 and work with you to make sure what gets built is what is needed.</p></div>
-                <div id="imgdiza">
-                    <img src= "images/design_icon.png" alt="design">
-                      <p>Design</p>
-                </div>
+
           </div>
 
         <div class="col-md-4">
+          <div id="imgdizb">
+              <img src= "images/dev_icon.png" alt="development">
+              <p>Development</p>
           <div id="dizb">
             <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
               <br>They collaborate with your team to write, test, and improve </br>code on a daily basis,
                   using proven practices such as test-driven development and pair programming.</p></div>
-              <div id="imgdizb">
-                  <img src= "images/dev_icon.png" alt="development">
-                  <p>Development</p>
+
                 </div>
                 </div>
 
          <div class="col-md-4">
+           <div id="imgdizc">
+               <img src= "images/product_icon.png" alt="project"></div>
+               <p>Project management</p>
+           </div>
               <div id="dizc">
                 <p>Planning and development is iterative. Because we are constantly coding and <br>testing,
                    the products we build are always ready to go live.This iterative process allows for</br>
                    changes as business requirements eveolve.</p></div>
-                   <div id="imgdizc">
-                       <img src= "images/product_icon.png" alt="project"></div>
-                       <p>Project management</p>
-                   </div>
 
               </div>
-            </div>
 
 
-    <h1>PORTFOLIO</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-            <img src= "images/work4.jpg" id="work4" alt="n1">
-        <p id=naz1 class="text">black studio</p>
-        </div>
-        <div class="col-md-3">
-          <img src= "images/work3.jpg" id="work3" alt="n2">
-        <p id=naz2 class="text">Ontario</p>
-        </div>
-        <div class="col-md-3">
-        <img src= "images/work2.jpg" id="work2" alt="n3">
-        <p id=naz3 class="text">Pyramid</p></div>
-        <div class="col-md-3">
-        <img src= "images/work1.jpg" id="work1" alt="n4">
-        <p id=naz4 class="text">JIm Careey</p>
-      </div>
-      </div>
+<div class="port1">
+  <h1>PORTFOLIO</h1>
+<div class="row">
+  <div class="col-md-3">
+      <img src= "images/work4.jpg" alt="n1" id=naz1>
+  </div>
+  <div class="col-md-3">
+      <img src= "images/work3.jpg" alt="n2" id=naz2>
+  </div>
+  <div class="col-md-3">
+      <img src= "images/work2.jpg" alt="n3" id=naz3>
+  </div>
+  <div class="col-md-3">
+      <img src= "images/work1.jpg" alt="n4" id=naz4>
+  </div>
+</div> <br>
+<div class="row">
+  <div class="col-md-3">
+      <img src= "images/work5.jpg" alt="n5" id=naz5>
+  </div>
+  <div class="col-md-3">
+      <img src= "images/work6.jpg" alt="n6" id=naz6>
+  </div>
+  <div class="col-md-3">
+      <img src= "images/work7.jpg" alt="n7" id=naz7>
+  </div>
+  <div class="col-md-3">
+      <img src= "images/work8.jpg" alt="n8" id=naz8>
+  </div>
+</div> <br>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-            <img src= "images/work5.jpg" id="work5" alt="n5">
-            <p id=naz5 class="text">Have a good Day</p>
-        </div>
-        <div class="col-md-3">
-          <img src= "images/work6.jpg" id="work6" alt="n6">
-            <p id=naz6 class="text">Calculator</p>
-        </div>
-        <div class="col-md-3">
-          <img src= "images/work7.jpg" id="work7" alt="n7">
-          <p id="naz7" class="text">Burned</p>
-        </div>
-        <div class="col-md-3">
-          <img src= "images/work8.jpg" id="work8" alt="n8">
-          <p id="naz8" class="text">Giraffe Resturant</p>
-        </div>
-      </div>
-    </div>
+</div>
+</div>
+
 
     <div class="nasra">
     <h2>CONTACT US</h2>
@@ -127,11 +122,11 @@
            <input type="email" class="form-1"  placeholder = "Email...."   name="numro1" id="numro1" size="25" value="">
          </div>
          <div class="form">
-           <textarea class="form-1" rows="8" id="message" placeholder = "Your message here...." size="50"></textarea>
+           <textarea class="form-1" rows="8" id="message" placeholder = "Your message here...."  value=""></textarea></div>
            <div class="submit1">
             <button type="submit" class="btn btn-primary col-md-1">Submit</button>
            </div>
-         </div>
+
           </div>
        </form>
 
@@ -161,7 +156,7 @@
 </div>
 
   </body>
-
+      <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"6f5ff27d77b345138a134ce12","lid":"d8658b1ef1","uniqueMethods":true}) })</script>
       <script src="js/jquery-3.4.1.js"></script>
       <script src="js/scripts.js"></script>
 </html>

@@ -14,6 +14,24 @@ $(document).ready(function(){
   });
 
 });
+
+$(Document).ready(function(){
+  $("#imgdiza").click(function(){
+    $("#diza").toggle();
+  });
+});
+
+$(Document).ready(function(){
+  $("#imgdizb").click(function(){
+    $("#dizb").toggle();
+  });
+});
+
+$(Document).ready(function(){
+  $("#imgdizc").click(function(){
+    $("#dizc").toggle();
+  });
+});
 //
 // $("#work4").mouseover(function (){
 //   $("$naseeb").show();
