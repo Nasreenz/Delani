@@ -1,31 +1,19 @@
 $(document).ready(function(){
   $("form#form-delani").submit(function(event){
-<<<<<<< HEAD
     // event.preventDefault();
-=======
-    event.preventDefault();
->>>>>>> gh-pages
     var name = $("input#numro").val();
     var email = $("input#numro1").val();
     var message = $("textarea#message").val();
     if ($("input#numro1").val() && $("input#numro1").val()){
-<<<<<<< HEAD
       alert (name + ",  your message has been received. I appreciate you for reaching out to me.");
     }
     else {
       alert("Enter your name and email!");
-=======
-      alert (name + ", we have received your message. we appreciate you for reaching out to us.");
-    }
-    else {
-      alert("Please enter your name and email!");
->>>>>>> gh-pages
     }
 
   });
 
 });
-<<<<<<< HEAD
 
 $(Document).ready(function(){
   $("#imgdiza").click(function(){
@@ -111,5 +99,3 @@ $(document).ready(function(){
     $("#naz8").hide();
   });
 });
-=======
->>>>>>> gh-pages

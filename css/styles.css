@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 body{
   font-family: Odibee;
 }
-=======
->>>>>>> gh-pages
 .sam{
   background-image: url("../images/h_img.jpg");
   background-repeat: no-repeat;
@@ -12,28 +9,10 @@ body{
   color: white;
   padding: 200px;
   text-align: center;
-<<<<<<< HEAD
   font-family: Odibee;
 }
 .ibby{
   background-image: url("../images/s_image.jpg");
-=======
-}
-.ibby{
-  background-image: url("../images/s_image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: normal!important;
-  color: white;
-  padding: 200px;
-  text-align: center;
-}
-monday{
-  padding-bottom: 
-}
-.nasra{
-  background-image: url("../images/c_image.jpg");
->>>>>>> gh-pages
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: normal!important;
