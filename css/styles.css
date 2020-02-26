@@ -75,30 +75,7 @@ textarea{
 #dizc{
   display: none;
 }
-.container{
-  position: relative;
-  width:50%;
-}
-.image{
-  display: block;
-  width: 100px;
-  height: auto;
-}
-.overlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100;
-  width: 100;
-  opacity: 0;
-  transition: .5s ease;
-  border-color: ##008CBA
-}
-.container:hover .overlay{
-  opacity:  1;
-}
+
 .text{
   color: red;
   font-size: 20px;
@@ -113,6 +90,7 @@ form{
   text-align: center;
 }
 p{
+  font-family: Shadows Into Light;
   text-align: center;
 }
 h2{
@@ -126,7 +104,7 @@ h2{
 .foot{
   text-align: center!important;
 }
-.george{
+.jameel{
   background-color: transparent;
   opacity: 0.4;
   color: white;
@@ -139,4 +117,56 @@ h2{
 }
 .button{
     text-align: center;
+}
+.naz{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%) rotateY(90deg);
+  color: rgb(255, 0, 140);
+  border:white solid 2px;
+}
+ .col-sm-3:hover .naz {
+   transform: translate(-50%,-50%) rotateY(90deg);
+   opacity: 1;
+ }
+
+ .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
