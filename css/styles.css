@@ -76,16 +76,6 @@ textarea{
   display: none;
 }
 
-.text{
-  color: red;
-  font-size: 20px;
-  position: absolute;
-  top: 50%
-  bottom: 50%;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform:translate(-50%,-50%);
-  text-align: center;
-}
 form{
   text-align: center;
 }
@@ -118,18 +108,6 @@ h2{
 .button{
     text-align: center;
 }
-.naz{
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%) rotateY(90deg);
-  color: rgb(255, 0, 140);
-  border:white solid 2px;
-}
- .col-sm-3:hover .naz {
-   transform: translate(-50%,-50%) rotateY(90deg);
-   opacity: 1;
- }
 
  .container {
   position: relative;
